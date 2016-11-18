@@ -1,0 +1,54 @@
+Lesson, Status, Notes
+01, Done, 
+02, Done, 
+03, Done, 
+04, Done, 
+05, Done, 
+06, Done, 
+07, Done, 
+08, Done, 
+09, Done, 
+10, Done, 
+11, Done, 
+12, Done, 
+13, Done, 
+14, Done, 
+15, Done, 
+16, Done, 
+17, Done, 
+18, Done, 
+19, Done,
+20, Done, 
+21, Done, 
+22, , (I need to write down what I know) 
+23, , (I need to read some code...the FamilySearch python SDK would be good) 
+24, Done, 
+25, Done, 
+26a, Done, (using internal functions)
+26b, , (using import and erasing the internal functions in the file)
+27, , 
+28, , TODO - I think it would be good to write code/unit tests for these things to check my answers.
+29, Done, 
+30, Done, 
+31, Done, TODO - Study Drills wants me to add to this game. I could start doing something that was more Family History related here if I wanted to. 
+32, Done, 
+33, Done, The different Study Drills have sd# in their filename.
+34, Done, TODO - This is about learning to reference list items with index 0. It could be good for practicing unit testing as well.
+35, Done, 
+36, Created, TODO - This is about writing my own version of the game. I think study drills for exercise 31 becomes a moot point after this. Possible topics: Family History, Missionary Work, Being Nice to Others. Of course those ideas are not exciting enough for my boys. They have created a couple of designs that will be the focus of what I'm doing.
+37, , Code reading practice
+38, Done, this was working with lists
+39, Started, working with dictionaries, or dict
+40, Done, 
+41, Done, TODO this is one I should continue to play with (it is called oop_test.py)
+42, Done, 
+43, Read, TODO this is his game. I started this, but decided to move on to Carson and Davis' games rather than code up his. 
+44, Read, I read this, but decided not to code any of his examples up.
+45, Started
+46, 
+47, 
+48, 
+49, 
+50, 
+51, 
+52, 

@@ -1,0 +1,21 @@
+Num, My Guess,  Correct Answer, Logic Statement To Test
+1, TRUE, TRUE, True and True
+2, FALSE, FALSE, False and True
+3, FALSE, FALSE, 1 == 1 and 2 == 1
+4, TRUE, TRUE, "test" == "test"
+5, TRUE, TRUE, 1 == 1 or 2 != 1
+6, TRUE, TRUE, True and 1 == 1
+7, FALSE, FALSE, False and 0 != 0
+8, TRUE, TRUE, True or 1 == 1
+9, FALSE, FALSE, "test" == "testing"
+10, FALSE, FALSE, 1 != 0 and 2 == 1
+11, TRUE, TRUE, "test" != "testing"
+12, FALSE, FALSE, "test" == 1
+13, TRUE, TRUE, not (True and False)
+14, FALSE, FALSE, not (1 == 1 and 0 != 1)
+15, FALSE, FALSE, not (10 == 1 or 1000 == 1000)
+16, TRUE, FALSE, not (1 != 10 or 3 == 4)
+17, TRUE, TRUE, not ("testing" == "testing" and "Zed" == "Cool Guy")
+18, TRUE, TRUE, 1 == 1 and (not ("testing" == 1 or 1 == 0))
+19, FALSE, FALSE, "chunky" == "bacon" and (not (3 == 4 or 3 == 3))
+20, FALSE, FALSE, 3 == 3 and (not ("testing" == "testing" or "Python" == "Fun"))

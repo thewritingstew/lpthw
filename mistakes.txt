@@ -1,0 +1,5 @@
+These are mistakes I made during the exercises. Check to make sure I don't make 
+these same mistakes again.
+
+1. typo in string
+2. IDE (eclipse) sucked in a bunch of extra stuff based on a word I typed (days). I'm now switching to Xcode. I have since used the IDLE IDE as well.
