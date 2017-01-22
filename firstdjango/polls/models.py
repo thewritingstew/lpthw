@@ -14,7 +14,25 @@ class Question(models.Model):
         
     # method for checking if question was recently published
     def was_published_recently(self):
-        return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
+        """
+        Returns True if question was published within the last day, otherwise 
+        returns False.
+        :return: boolean
+        """
+        now = timezone.now()
+        date_published = self.pub_date
+        one_day_ago = now - datetime.timedelta(days=1)
+        
+        return one_day_ago <= date_published <= now
+
+        #~ if self.pub_date >= timezone.now() - datetime.timedelta(days=1):
+            #~ if self.pub_date < timezone.now():
+                #~ return True
+            #~ else:
+                #~ return False
+        #~ else:
+            #~ return False
+        #~ return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
 
 
 # each question has choices

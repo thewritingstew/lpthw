@@ -12,3 +12,9 @@
     <br />
     <input type="submit" value="Vote" />
 </form>
+
+{% if question.was_published_recently %}
+<p>This question was published in the last day.</p>
+{% else %}
+<p>This question was published more than one day ago.</p>
+{% endif %}
