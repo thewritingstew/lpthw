@@ -1,0 +1,11 @@
+<h1>Question Number {{ question.id }}</h1>
+{% if question.id|divisibleby:2 %}
+    <h2>You've chosen to answer an even numbered question. Good luck...</h2>
+{% else %}
+    <h2>You've chosen to answer an odd question. That's weird...</h2>
+{% endif %}
+<br/>
+<h1>{{ question.question_text }}</h1>
+{% for choice in question.choice_set.all %}
+    <p>{{ choice.choice_text }}</p>
+{% endfor %}

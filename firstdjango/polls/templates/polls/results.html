@@ -1,0 +1,14 @@
+    <h1>{{ question.question_text }}</h1>
+{% if question.id|divisibleby:2 %}
+    <p>Even when you aren't sure, there's an answer...</p>
+{% else %}
+    <p>Odd though it may seem, the results for this question are below...</p>
+{% endif %}
+
+<ul>
+{% for choice in question.choice_set.all %}
+    <li>{{ choice.choice_text }} -- {{ choice.votes }} vote{{ choice.votes|pluralize }}</li>
+{% endfor %}
+</ul>
+
+<a href="{% url 'polls:detail' question.id %}">Vote again?</a>
